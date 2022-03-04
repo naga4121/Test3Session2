@@ -1,15 +1,9 @@
 #include<stdio.h>
 void input(int*num1, int*den1, int*num2, int*den2)
 {
-  printf("Enter the num1:");
-  scanf("%d",num1);
-  printf("Enter the den1:");
-  scanf("%d",den1);
-  printf("Enter the num2:");
-  scanf("%d",num2);
-  printf("Enter the den2:");
-  scanf("%d",den2);
-}
+ printf("enter the values");
+ scanf("%d%d%d%d",num1,den1,num2,den2);
+ }
 void add(int num1,int den1,int num2,int den2,int*num3,int*den3)
 {
 int gcd, c, x, y;
